@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <display-name>BankApp</display-name>
+ 
+
+ <servlet>
+    <servlet-name>signUp</servlet-name>
+    <jsp-file>/signUp.html</jsp-file>
+</servlet>
+<servlet-mapping>
+	<servlet-name>signUp</servlet-name>
+    <url-pattern>/signUp</url-pattern>
+</servlet-mapping>
+ <servlet>
+    <servlet-name>getFormular</servlet-name>
+    <jsp-file>/getFormular.html</jsp-file>
+</servlet>
+<servlet-mapping>
+	<servlet-name>getFormular</servlet-name>
+    <url-pattern>/getFormular</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>backToSignUp</servlet-name>
+    <jsp-file>/signUp.html</jsp-file>
+</servlet>
+<servlet-mapping>
+	<servlet-name>backToSignUp</servlet-name>
+    <url-pattern>/backToSignUp</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>logIn</servlet-name>
+    <jsp-file>/login.jsp</jsp-file>
+</servlet>
+<servlet-mapping>
+	<servlet-name>logIn</servlet-name>
+    <url-pattern>/logIn</url-pattern>
+</servlet-mapping>
+
+
+ <servlet>
+    <servlet-name>validateOtp</servlet-name>
+    <jsp-file>/validateOtp.jsp</jsp-file>
+</servlet>
+<servlet-mapping>
+	<servlet-name>validateOtp</servlet-name>
+    <url-pattern>/validateOtp</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>validateOtpCont</servlet-name>
+    <jsp-file>/validateOtpCont.html</jsp-file>
+</servlet>
+<servlet-mapping>
+	<servlet-name>validateOtpCont</servlet-name>
+    <url-pattern>/validateOtpCont</url-pattern>
+</servlet-mapping>
+
+ <servlet>
+    <servlet-name>goToTerms</servlet-name>
+    <jsp-file>/terms.html</jsp-file>
+</servlet>
+<servlet-mapping>
+	<servlet-name>goToTerms</servlet-name>
+    <url-pattern>/goToTerms</url-pattern>
+</servlet-mapping>
+
+
+  <servlet>
+    <servlet-name>createABankAccount</servlet-name>
+    <jsp-file>/createBankAccount.jsp</jsp-file>
+</servlet>
+<servlet-mapping>
+	<servlet-name>createABankAccount</servlet-name>
+    <url-pattern>/createABankAccount</url-pattern>
+</servlet-mapping>
+  <servlet>
+    <servlet-name>formular</servlet-name>
+    <jsp-file>/formular.jsp</jsp-file>
+</servlet>
+<servlet-mapping>
+	<servlet-name>formular</servlet-name>
+    <url-pattern>/formular</url-pattern>
+</servlet-mapping>
+
+ <servlet>
+    <servlet-name>creditAccount</servlet-name>
+    <jsp-file>/creditAccount.jsp</jsp-file>
+</servlet>
+<servlet-mapping>
+	<servlet-name>creditAccount</servlet-name>
+    <url-pattern>/creditAccount</url-pattern>
+</servlet-mapping>
+  <servlet>
+    <servlet-name>addMoney</servlet-name>
+    <jsp-file>/addMoney.jsp</jsp-file>
+</servlet>
+<servlet-mapping>
+	<servlet-name>access</servlet-name>
+    <url-pattern>/access</url-pattern>
+</servlet-mapping>
+
+  <servlet>
+    <servlet-name>access</servlet-name>
+    <jsp-file>/access.jsp</jsp-file>
+</servlet>
+<servlet-mapping>
+	<servlet-name>addMoney</servlet-name>
+    <url-pattern>/addMoney</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>transferMoney</servlet-name>
+    <jsp-file>/transferMoney.jsp</jsp-file>
+</servlet>
+<servlet-mapping>
+	<servlet-name>transferMoney</servlet-name>
+    <url-pattern>/transferMoney</url-pattern>
+</servlet-mapping>
+
+ <servlet>
+    <servlet-name>accessAccount</servlet-name>
+    <jsp-file>/accessAccount.jsp</jsp-file>
+</servlet>
+<servlet-mapping>
+	<servlet-name>accessAccount</servlet-name>
+    <url-pattern>/accessAccount</url-pattern>
+</servlet-mapping>
+  <servlet>
+    <servlet-name>delete</servlet-name>
+    <jsp-file>/delete.jsp</jsp-file>
+</servlet>
+<servlet-mapping>
+	<servlet-name>delete</servlet-name>
+    <url-pattern>/delete</url-pattern>
+</servlet-mapping>
+  <servlet>
+    <servlet-name>menu</servlet-name>
+    <jsp-file>/menu.jsp</jsp-file>
+</servlet>
+<servlet-mapping>
+	<servlet-name>menu</servlet-name>
+    <url-pattern>/menu</url-pattern>
+</servlet-mapping>
+<servlet>
+    <servlet-name>backToMenu</servlet-name>
+    <jsp-file>/menu.jsp</jsp-file>
+</servlet>
+<servlet-mapping>
+	<servlet-name>backToMenu</servlet-name>
+    <url-pattern>/backToMenu</url-pattern>
+</servlet-mapping>
+   <session-config>
+      <session-timeout>30</session-timeout>
+   </session-config>
+</web-app>
