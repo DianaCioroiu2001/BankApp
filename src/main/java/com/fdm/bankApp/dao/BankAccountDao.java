@@ -14,5 +14,4 @@ public interface BankAccountDao {
 	BankAccountEntity deleteBank(BankAccountEntity bankAccountEntity, Session session);
 	 BankAccountEntity findByUserId(int id, Session session);
 	 BankAccountEntity findByIban(String iban, Session session);
-
 }
