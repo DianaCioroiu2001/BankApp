@@ -24,6 +24,7 @@ public class BankAccountDaoImpl implements BankAccountDao {
 		session.close();
 		sessionFactory.close();
 		return bankAccountEntity;
+
 	}
 	public BankAccountEntity findByUserId(int id, Session session) {
 		Query query = session.createQuery(" from UserAccountEntity where user_id= :id");

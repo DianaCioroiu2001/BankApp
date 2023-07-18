@@ -22,6 +22,7 @@ public class TransactionsDaoImpl implements TransactionsDao{
 		session.close();
 		sessionFactory.close();
 		return transactionsEntity;
+
 	}
 
 	public TransactionsEntity update(TransactionsEntity transactionsEntity, Session session) {

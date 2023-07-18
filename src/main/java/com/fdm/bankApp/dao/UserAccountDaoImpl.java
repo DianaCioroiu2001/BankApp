@@ -32,6 +32,7 @@ public class UserAccountDaoImpl implements UserAccountDao {
 	        return userAccountEntity;
 	}
 
+
 	@Override
 	public UserAccountEntity delete(UserAccountEntity userAccountEntity, Session session) {
 		 session.delete(userAccountEntity);

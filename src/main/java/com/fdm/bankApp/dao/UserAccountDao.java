@@ -22,5 +22,6 @@ public interface UserAccountDao {
 	UserAccountEntity existName(String name, Session session);
 	UserAccountEntity existCnp(String cnp, Session session);
 
+
 	
 }

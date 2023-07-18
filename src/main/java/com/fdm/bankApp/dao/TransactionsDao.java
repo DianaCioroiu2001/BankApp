@@ -11,3 +11,4 @@ public interface TransactionsDao {
 	TransactionsEntity delete(TransactionsEntity transactionsEntity, Session session);
 	TransactionsEntity findById(int id, Session session);
 }
+
